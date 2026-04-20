@@ -83,7 +83,7 @@ public class Main {
         } else if (two >= one && two >= three) {
             System.out.println("Большее число — " + two);
         } else {
-            System.out.println("Большее число — " + three);
+            System.out.println("Большее число — " + three );
         }
     }
 }
