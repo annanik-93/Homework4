@@ -37,9 +37,9 @@ public class Main {
         } else if (age1 >= 7 && age1 <= 17) {
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в школу");
         } else if (age1 >= 18 && age1 <= 24) {
-            System.out.println("Если возраст человека равен " + age1 + ", то его место в университете");
+            System.out.println("Если возраст человека равен" + age1 + ", то его место в университете");
         } else if (age1 > 24) {
-            System.out.println("Если возраст человека равен " + age1 + ", то ему пора ходить на работу");
+            System.out.println("Если возраст человека равен" + age1 + ", то ему пора ходить на работу");
         }
 
         int age2 = 10;
@@ -47,7 +47,7 @@ public class Main {
         System.out.println();
         System.out.println("Задание №5");
         if (age2 < 5) {
-            System.out.println("Если возраст ребенка равен " + age2 + ", то ему нельзя кататься на аттракционе");
+            System.out.println("Если возраст ребенка равен" + age2 + ", то ему нельзя кататься на аттракционе");
         } else if (age2 >= 5 && age2 < 14) {
             if (hasAdult) {
                 System.out.println("Если возраст ребенка равен " + age2 + ", то ему можно кататься на аттракционе в сопровождении взрослого");
